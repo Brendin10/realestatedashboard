@@ -114,13 +114,7 @@ if st.checkbox("Show installation instructions"):
 # In[1]:
 
 
-get_ipython().system('pip install streamlit pandas plotly')
 
-
-# In[7]:
-
-
-get_ipython().system('streamlit run real_estate_dashboard.py')
 
 
 # In[ ]:
