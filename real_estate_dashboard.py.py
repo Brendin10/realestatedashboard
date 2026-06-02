@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # In[5]:
-pip install streamlit pandas plotly
+!pip install streamlit pandas plotly
 
-pip install --upgrade pip
+!pip install --upgrade pip
 
 import streamlit as st
 import pandas as pd
