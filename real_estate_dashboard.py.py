@@ -2,7 +2,11 @@
 # coding: utf-8
 
 # In[5]:
+pip install streamlit pandas plotly
 
+import streamlit as st
+import pandas as pd
+import plotly.express as px
 # ====================== PAGE CONFIG ======================
 st.set_page_config(
     page_title="Real Estate Appreciation Dashboard",
