@@ -1,1 +1,1 @@
-get_ipython().system('pip install streamlit pandas plotly')
+pip install streamlit pandas plotly
