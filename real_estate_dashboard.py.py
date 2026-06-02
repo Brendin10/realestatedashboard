@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+from streamlit.starlette import App
+from starlette.routing import Mount
+from starlette,staticfiles import StaticFiles
+
+app = App("real_estate_dasboard.py", routes=[
+    Mount("/preview", app=StaticFiles(directory="./static_site", html=True)), ])
+
 # ====================== PAGE CONFIG ======================
 st.set_page_config(
     page_title="Real Estate Appreciation Dashboard",
